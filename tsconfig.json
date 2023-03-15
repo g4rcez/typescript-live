@@ -1,0 +1,28 @@
+{
+  "include": [
+    "./src"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "downlevelIteration": true,
+    "noStrictGenericChecks": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "useUnknownInCatchVariables": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowUmdGlobalAccess": true,
+    "moduleResolution": "node",
+    "jsx": "react"
+  }
+}
